@@ -1,4 +1,4 @@
-# NanoGPT 小型 GPT 训练
+# miniGPT 训练
 
 ## 项目概览
 
