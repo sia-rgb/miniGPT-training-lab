@@ -114,212 +114,69 @@
 
 > 总结：模型最终输出的 CAPULET、CAMILLO 等角色台词，是模型根据 **checkpoint 的训练模式** 自行生成的。prompt 只是起始骨架，模型依赖训练权重预测字符序列，而不是基于具体问答输入生成的回答。
 
-CAPULET:
-The news I shall well as the sea-share,
-To love the enemies of the law was men.
+#### 样本文本展示
 
-CAMILLO:
-It is a saint pair livering royal death,
-He hath been so much proaches the state and so long.
+> 下面是模型根据 checkpoint + prompt 自回归生成的十个样本文本示例。
 
-BENVOLIO:
-Take him of my lord: he shall not serve:
-He is he would not sigh; on his side is false,
-While we die for the merrimage of her son:
-'Tis not the pitch, this proclamation respect me
-To leave the state with his friend. Why, how looks you so fast?
-And you was a good tyrant mortal mather's life,
-To w
----------------
+##### CAPULET
 
-DUKE VINCENTIO:
+```
+The news I shall well as the sea-share, To love the enemies of the law was men.
+```
+
+##### CAMILLO
+
+```
+It is a saint pair livering royal death, He hath been so much proaches the state and so long.
+```
+
+##### BENVOLIO
+
+```
+Take him of my lord: he shall not serve: He is he would not sigh; on his side is false, While we die for the merrimage of her son: 'Tis not the pitch, this proclamation respect me To leave the state with his friend. Why, how looks you so fast? And you was a good tyrant mortal mather's life, To w
+```
+
+##### DUKE VINCENTIO
+
+```
 Come, sir, you can I were not pass your foul.
+```
 
-ISABELLA:
+##### ISABELLA
+
+```
 Sir, I pray thee, perhappy now.
+```
 
-LUCIO:
-I would not relish my guests when I behold him that
-be done to be the true; we must not die: the friar is for my
-office is not extramined to you the Antium of Lucio with
-me: if we were not so four a hateful mother, Julietness and him
-friends to us and to rue for him; but render son
-this pity is a longer to keep and great modesty.
+##### LUCIO
 
-AUFIDIUS:
+```
+I would not relish my guests when I behold him that be done to be the true; we must not die: the friar is for my office is not extramined to you the Antium of Lucio with me: if we were not so four a hateful mother, Julietness and him friends to us and to rue for him; but render son this pity is a longer to keep and great modesty.
+```
+
+##### AUFIDIUS
+
+```
 I have been a word of contraction like a par
----------------
+```
 
-All inclination, I rather now on.
+##### CORIOLANUS
 
-CAMILLO:
-We seek upon again.
+```
+Good, I would have my father: Therefore, free we were strong-pench on't, Within the extract of my wife: yet I see the faults, Which thereto the malice of a thousand contains, A little believe the air of the whole fight Romeo, was once the vanity that I have power, As the thralt of heavens for a days.
+```
 
-CORIOLANUS:
-Good, I would have my father:
-Therefore, free we were strong-pench on't,
-Within the extract of my wife: yet I see the faults,
-Which thereto the malice of a thousand contains,
-A little believe the air of the whole fight
-Romeo, was once the vanity that I have power,
-As the thralt of heavens for a days.
+##### GREGORY
 
-GREGORY:
+```
 It is the tale of the readies of the worst.
+```
 
-KING EDWARD IV:
+##### KING EDWARD IV
+
+```
 The traitor, because that the was so little.
-
-GLOU
----------------
-
-Here in this into being our own brother's part;
-Her noble lord, and that my request
-Were little proclaim'd frown our brother in
-the common confound of my air lawful best
-Of what I did repent to be bold;
-And yet I were in my brother's eyes.
-
-KING RICHARD II:
-You are so; and my leisure to attend me?
-
-EDWARD:
-Then stay out, and but the lord of the king,
-If I shall not give my father's sake and weeping Edward's.
-
-QUEEN ELIZABETH:
-My husband post by the best hands for thy hands.
-
-GLOUCESTER:
-No, good
----------------
-
-And all the rest with the old of York:
-Alas, the gates of York to your suitors,
-And you will not him for the souls of York before.
-Plantagenet, his friend, lords, his honour souls
-Sits from undertaked, whiles he seems to be ours.
-
-CLIFFORD:
-Belike the time that I may reply thy deeds.
-
-WARWICK:
-From this wit long will to command these wars
-With the hands of heaven for deceived bloody thoughts.
-
-WARWICK:
-Ay, my lord; be rebels of thine, before George.
-
-KING HENRY VI:
-Exeter, brother, Montgomery:
-T
----------------
-
-About myself and whose churchyard humble hasty,
-All birth, look'd to bear some word, Clifford,
-With summer valiant and fortune's good contract
-To warrant him for your consented marriage
-That it was very man.
-In God's king of my head, and my soul more!
-
-CLIFFORD:
-Thou shalt not be contented against thy house.
-
-YORK:
-What say'st thou grant then and heavy sweet sons?
-
-QUEEN MARGARET:
-Then stay, and go not like the tower soul to do thee.
-Yea, that forsake my turns the reetirers from thee,
-I will bea
----------------
-
-IE should be the house of this business
-Of royal voices, how the seals to his promise,
-Are he inclining to his behalf war.
-
-SICINIUS:
-O woman!
-
-MENENIUS:
-O hare before our propery!
-
-BRUTUS:
-Not so shall she take me to be so much of charged
-With all this power of great Aufidius time;
-For nothing receives in countenance against his gods,
-For the men and fall with a verged fellow.
-
-SICINIUS:
-Your good father,
-
-VOLUMNIA:
-Let me speak you:
-If I will be satisfied
-By your prating respect with strength
----------------
-
-Now many years for my could be inquired.
-
-Nurse:
-My gracious lord, on the heavens hath fell in the state
-Of Margaret's freedom of a discommanded black
-A valour in his heart, doing but every body
-Virtue to go by back again.
-
-JULIET:
-Peace, cousin, good friends! no! show we must die,
-And tell me the thing lands, that refuge the world:
-Thou wilt not tell me thy father to thy tears,
-And bid him not speak thee that cure night
-Of nice which upon the more and old tailors with him!
-
-FRIAR LAURENCE:
-O mo
----------------
-
-By inch the rock, how I have not made to our souls?
-
-DUKE OF AUMERLE:
-Ay, she be told me not to die; and she
-should I know the house that foul were estable.
-
-HENRY BOLINGBROKE:
-My lord, I say.
-
-KING RICHARD II:
-My lord, the liege is an early deed;
-Which, little armour lives might join ouf purge.
-
-DUKE OF YORK:
-Must I take your majesty, your remembrance?
-Your honour, go from any hands. For what?
-My liege, lords, what for thy heads to you not the gracious deed?
-
-QUEEN MARGARET:
-Boldly son! dail, y
----------------
-
-But I am a silent devil:
-My son is a my soldier's lover.
-
-GLOUCESTER:
-So slaughter'd your crown for your hands
-On gallies then far and your scope by the worst.
-
-BUCKINGHAM:
-Well, well, well well, sweet plays scarce thou shalt not
-Be train'd by the follower.
-
-QUEEN ELIZABETH:
-Why, not light she hath sworn to bear the fatal grace
-As princely for you will not be here any men.
-
-HENRY BOLINGBROKE:
-This name is the king my son were little no way,
-Which then call me last the sea that was too resolved
-
-
+```
 ---
 
 ## 训练过程中的问题与启发
